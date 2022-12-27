@@ -165,8 +165,8 @@ def max_island(
 
 def main():
     # make world
-    WORLD_SIZE_X = 100
-    WORLD_SIZE_Y = 100
+    WORLD_SIZE_X = 10
+    WORLD_SIZE_Y = 10
 
     world = np.random.choice(
         [SpaceTypes.WATER, SpaceTypes.LAND],
